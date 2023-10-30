@@ -1,0 +1,40 @@
+.banner-content{
+    padding-left: 3rem;
+    padding-top: 250px;
+    width: 45rem;
+    /* background: transparent; */
+}
+.banner-content h1{
+    font-size: 3rem;
+    padding-top: 1rem;
+    /* background: transparent; */
+}
+.banner-content h2{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+/* .button-content{
+    background: transparent;
+} */
+/* .play{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border-color: transparent;
+} */
+/* .more{
+    background: transparent;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border-color: white;
+} */
+.more:hover{
+    background-color: white;
+    color: black;
+}
+.more:hover i{
+    color: black;
+}

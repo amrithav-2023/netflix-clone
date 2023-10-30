@@ -1,0 +1,25 @@
+.row{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+::-webkit-scrollbar{
+    display: none; /* to remove scrollbar */
+}
+.movie_row{
+    display: flex;
+    overflow-x: scroll; /* to scroll using arrow key in keyboard */
+    margin-top: 20px;
+}
+.movies{
+    width: 100%;
+    object-fit: contain;
+    margin-right: 20px;
+    height: 200px;
+    transition: 460ms;
+}
+.movies:hover{
+    transform: scale(1.06);
+}
+.movie-poster{
+    height: 350px;
+}
